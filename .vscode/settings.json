@@ -110,6 +110,6 @@
     "test.h": "c"
   },
   "files.exclude": {
-    "**/*.exe": true
+    "**/*.exe/**": true
   }
 }
