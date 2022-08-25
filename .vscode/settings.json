@@ -111,5 +111,8 @@
   },
   "files.exclude": {
     "**/*.exe/**": true
+  },
+  "files.watcherExclude": {
+    "**/*.exe/**": true
   }
 }
