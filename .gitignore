@@ -2,7 +2,7 @@
 .json
 **/*.exe
 .exe
-**/*.exe/**"
+**/*.exe/**
 CWS/test
 C++WS/test.dSYM/Contents/test
 C++WS/test.dSYM/Contents/test.dSYM/
