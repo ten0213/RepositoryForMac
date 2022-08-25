@@ -2,3 +2,8 @@
 .json
 **/*.exe
 .exe
+**/*.exe/**"
+CWS/test
+C++WS/test.dSYM/Contents/test
+C++WS/test.dSYM/Contents/test.dSYM/
+CWS/test.dSYM
