@@ -108,5 +108,8 @@
     "stdio.h": "c",
     "__availability": "c",
     "test.h": "c"
+  },
+  "files.exclude": {
+    "**/*.exe": true
   }
 }
