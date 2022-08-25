@@ -113,6 +113,9 @@
     "**/*.exe/**": true
   },
   "files.watcherExclude": {
-    "**/*.exe/**": true
+    "CWS/test": true,
+    "C++WS/test.dSYM/Contents/test": true,
+    
+
   }
 }
