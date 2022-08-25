@@ -6,7 +6,7 @@ public class test {
 		int[] chess = new int[6];
 		for(int i=0; i<chess.length; i++) {
 			chess[i] = sc.nextInt();
-		}
+		} 
 		int[] rightPieceNum = {1, 1, 2, 2, 2, 8};
 		int tmp = 0;
 		for(int i=0; i<rightPieceNum.length; i++) {
