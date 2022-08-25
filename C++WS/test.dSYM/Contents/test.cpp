@@ -5,7 +5,7 @@ class Person
 { // Person 클래스 선언
     char *name;
     int id;
-
+// ddd
 public:
     Person(int id, char *name); // 생성자
     Person(Person &person);     // 복사 생성자
