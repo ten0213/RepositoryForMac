@@ -24,26 +24,5 @@
             "args": [],
             "cwd": "${workspaceRoot}"
         },
-        {
-            "name": "C/C++ Runner: Debug Session",
-            "type": "lldb",
-            "request": "launch",
-            "args": [],
-            "cwd": "/Users/hwangjaehyeon/VScodeWS",
-            "program": "/Users/hwangjaehyeon/VScodeWS/build/Debug/outDebug",
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "name": "(lldb) 시작",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.out)",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-        }
     ]
 }
