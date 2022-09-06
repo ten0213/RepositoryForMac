@@ -1,5 +1,5 @@
 // program to find the factors of an integer
-
+console.log("hello world!");
 // take input
 const num = prompt('Enter a positive number: ');
 
@@ -10,7 +10,7 @@ function main() {
 
     // check if number is a factor
     if(num % i == 0) console.log(i);
-    
+
     }
 
 }
