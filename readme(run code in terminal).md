@@ -4,7 +4,7 @@
 
 ## 2. C++ 실행
 
-  * "C++WS/test.dSYM/Contents/test.cpp" 로 빌드 후, "./a.out" 으로 실행
+  * "g++ C++WS/test.cpp" 로 빌드 후, "./a.out" 으로 실행
 
 ## 3. Python 실행
   
