@@ -1,1 +1,2 @@
-console.log(1 + 333)
+console.log(1 + 333 + "\n")
+console.log("Hello")

@@ -1,7 +1,25 @@
-def add(a, b, c):
-    if a > 0:
-        return a + b + c
+#You may use import as below.
 
-if __name__ == "__main__":
-    for i in range(10):
-        print(add(10, 20, 30))
+def solution(shirt_size):
+    
+    answer = [0 for _ in range(6)]
+    for i in shirt_size:
+        if i == "XS":
+            answer[0] += 1
+        elif i == "S":
+            answer[1] += 1
+        elif i == "M":
+            answer[2] += 1
+        elif i == "L":
+            answer[3] += 1
+        elif i == "XL":
+            answer[4] += 1
+        elif i == "XXL":
+            answer[5] += 1
+    return answer
+#The following is code to output testcase.
+shirt_size = ["XS", "S", "L", "L", "XL", "S"]
+ret = solution(shirt_size)
+
+#Press Run button to receive output.
+print("Solution: return value of the function is ", ret, ".")

@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include "test.h"
 
@@ -32,7 +31,7 @@ void move_rect(RECT *r, int dx, int dy)
 
 int main(void)
 {
-	RECT r={10,10, 20, 20};
+	RECT r={10, 10, 20, 20};
 	double area=0.0;
 
 	draw_rect(&r);
