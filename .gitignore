@@ -4,4 +4,6 @@
 **/*.exe
 /.exe
 .class
-**/*.classx
+**/*.class
+.vscode
+CWS/test
