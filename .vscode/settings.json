@@ -110,11 +110,16 @@
     "test.h": "c"
   },
   "files.exclude": {
-    "**/*.exe/**": true,
+    "**/*.exe": true,
     "CWS/test": true,
     "C++WS/test.dSYM/Contents/test": true,
     "C++WS/test.dSYM/Contents/test.dSYM/": true,
-    "CWS/test.dSYM": true
+    "CWS/test.dSYM": true,
+    "**/*.class":true,
+    "**/JupyterWS/.ipynb_checkpoints":true,
+    "**/C++WS/test.dSYM":true,
+    "C++WS/test":true,
+    ".vscode":true
 
   },
 }
