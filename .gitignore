@@ -5,5 +5,5 @@
 /.exe
 .class
 **/*.class
-.vscode
+/.vscode
 CWS/test
