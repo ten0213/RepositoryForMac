@@ -1,43 +1,25 @@
+// realloc.c
+/* 동적 메모리의 용량을 확장하여 데이터를 저장하는 프로그램 */
 #include <stdio.h>
-#include "test.h"
+#include <stdlib.h>
 
-#define DEBUG
-
-void draw_rect(const RECT *r)
+int main()
 {
-#ifdef DEBUG
-	printf("draw_area(x=%d, y=%d, w=%d, h=%d) \n", r->x, r->y, r->w, r->h);
-#endif
-}
+	printf("정수 2개를 저장할 공간이 필요 \n");
+	int *list = (int *)malloc(sizeof(int) * 2);
+	int i;
+	int *list_new;
 
-double calc_area(const RECT *r)
-{
-	double area;
-	area = r->w * r->h;
-#ifdef DEBUG
-	printf("calc_area()=%f \n", area);
-#endif
-	return area;
-}
+	list[0] = 10;
+	list[1] = 20;
 
-void move_rect(RECT *r, int dx, int dy)
-{
-#ifdef DEBUG
-	printf("move_rect(%d, %d) \n", dx, dy);
-#endif
-	r->x += dx;
-	r->y += dy;
-}
+	printf("정수 3개를 저장할 공간으로 확장 \n");
+	list_new = (int *)realloc(list, sizeof(int) * 3);
+	list_new[2] = 30;
 
-int main(void)
-{
-	RECT r={10, 10, 20, 20};
-	double area=0.0;
+	for (i = 0; i < 3; i++)
+		printf("%d ", list_new[i]);
+	printf("\n");
 
-	draw_rect(&r);
-	move_rect(&r, 10, 20);
-	draw_rect(&r);
-	area = calc_area(&r);
-	draw_rect(&r);
 	return 0;
 }

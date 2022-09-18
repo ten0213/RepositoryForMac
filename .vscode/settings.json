@@ -122,4 +122,5 @@
     ".vscode":true
 
   },
+  "sqltools.connections": [],
 }

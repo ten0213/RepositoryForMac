@@ -1,7 +1,6 @@
 #You may use import as below.
 
 def solution(shirt_size):
-    
     answer = [0 for _ in range(6)]
     for i in shirt_size:
         if i == "XS":
@@ -17,6 +16,7 @@ def solution(shirt_size):
         elif i == "XXL":
             answer[5] += 1
     return answer
+    
 #The following is code to output testcase.
 shirt_size = ["XS", "S", "L", "L", "XL", "S"]
 ret = solution(shirt_size)
