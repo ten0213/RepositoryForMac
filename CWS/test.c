@@ -20,6 +20,6 @@ int main()
 	for (i = 0; i < 3; i++)
 		printf("%d ", list_new[i]);
 	printf("\n");
-
+	free(list_new);
 	return 0;
 }
