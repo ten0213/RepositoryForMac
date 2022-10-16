@@ -145,7 +145,7 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "hr",
-      "database": "hr",
+      "database": "hr_mysql",
       "username": "root",
       "password": "1234"
     }
