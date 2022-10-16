@@ -22,4 +22,5 @@ shirt_size = ["XS", "S", "L", "L", "XL", "S"]
 ret = solution(shirt_size)
 
 #Press Run button to receive output.
-print("Solution: return value of the function is ", ret, ".")
+if __name__ == "__main__":
+    print("Solution: return value of the function is ", ret, ".")

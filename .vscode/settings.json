@@ -122,5 +122,32 @@
     ".vscode":true
 
   },
-  "sqltools.connections": [],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MariaDB",
+      "name": "madang",
+      "database": "madang_mysql",
+      "username": "root",
+      "password": "1234"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "hr",
+      "database": "hr",
+      "username": "root",
+      "password": "1234"
+    }
+  ],
 }
