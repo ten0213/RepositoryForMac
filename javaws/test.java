@@ -3,23 +3,28 @@ import java.util.Scanner;
 public class test {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int[] chess = new int[6];
-		for(int i=0; i<chess.length; i++) {
-			chess[i] = sc.nextInt();
-		} 
-		int[] rightPieceNum = {1, 1, 2, 2, 2, 8};
-		int tmp = 0;
-		for(int i=0; i<rightPieceNum.length; i++) {
-			if(chess[i] != rightPieceNum[i]) {
-				tmp = rightPieceNum[i] - chess[i];
-				chess[i] = tmp;
-			}
-			else chess[i] = 0;
-		}
-		for(int i=0; i<chess.length; i++) {
-			System.out.print(chess[i] + " ");
-		}
-		sc.close();
+		int [] arr = new int[10];
+      int sum=0;
+      double avr;
+      
+      Scanner scanner = new Scanner(System.in);
+      
+      for(int i=0;i<10;i++)
+      {
+         arr[i]=scanner.nextInt();
+         sum+=arr[i];
+      }
+      
+      avr=sum/10;
+      
+      for(int i=0;i<10;i++)
+      {
+         if(arr[i]>avr)
+         {
+            System.out.print(arr[i]);
+         }
+      }
+      
+      scanner.close();
 	}
 }

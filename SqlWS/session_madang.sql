@@ -1,1 +1,1 @@
-SELECT * from Book;
+select * from Book;

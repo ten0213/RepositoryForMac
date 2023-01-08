@@ -3,7 +3,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int a=100, b=2;
+
+    cout << a * b << endl;
 
     return 0;
 }

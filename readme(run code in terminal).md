@@ -20,3 +20,6 @@ est"
 ## 5. Javascript 실행
 
   * "node JavaScriptWS/test.js"
+## 6. swift 실행
+
+  * swift "/Users/hwangjaehyeon/VScodeWS/swiftWS/test.swift"

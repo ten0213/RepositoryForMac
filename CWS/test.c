@@ -1,25 +1,23 @@
-// realloc.c
-/* 동적 메모리의 용량을 확장하여 데이터를 저장하는 프로그램 */
+// atoi.c
+/* 문자열을 수치로 변환하여 연산 후 다시 문자열로 변환하여 출력하는 프로그램 */
 #include <stdio.h>
 #include <stdlib.h>
-
-int main()
+int main(void)
 {
-	printf("정수 2개를 저장할 공간이 필요 \n");
-	int *list = (int *)malloc(sizeof(int) * 2);
+	char s1[] = "1000";
+	char s2[] = "12.93";
+	char buffer[100];
 	int i;
-	int *list_new;
+	double d;
+	double result;
 
-	list[0] = 10;
-	list[1] = 20;
+	i = atoi(s1);
+	d = atof(s2);
 
-	printf("정수 3개를 저장할 공간으로 확장 \n");
-	list_new = (int *)realloc(list, sizeof(int) * 3);
-	list_new[2] = 30;
+	result = i + d;
 
-	for (i = 0; i < 3; i++)
-		printf("%d ", list_new[i]);
-	printf("\n");
-	free(list_new);
+	sprintf(buffer, "%f", result);
+	printf("연산 결과는 %s입니다.\n", buffer);
+
 	return 0;
 }

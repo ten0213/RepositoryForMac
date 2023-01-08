@@ -107,7 +107,8 @@
     "time.h": "c",
     "stdio.h": "c",
     "__availability": "c",
-    "test.h": "c"
+    "test.h": "c",
+    "stdlib.h": "c"
   },
   "files.exclude": {
     "**/*.exe": true,
@@ -115,12 +116,16 @@
     "C++WS/test.dSYM/Contents/test": true,
     "C++WS/test.dSYM/Contents/test.dSYM/": true,
     "CWS/test.dSYM": true,
-    "**/*.class":true,
-    "**/JupyterWS/.ipynb_checkpoints":true,
-    "**/C++WS/test.dSYM":true,
-    "C++WS/test":true,
-    ".vscode":true
+    "**/*.class": true,
+    "**/JupyterWS/.ipynb_checkpoints": true,
+    "**/C++WS/test.dSYM": true,
+    "C++WS/test": true,
+    ".vscode": true
+  },
+  "code-runner.executorMap": {
 
+    "python": "/usr/local/bin/python3",
+    "java": "cd \"/Users/hwangjaehyeon/VScodeWS/\" && javac javaws/test.java && java javaws/test",
   },
   "sqltools.connections": [
     {
