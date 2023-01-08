@@ -1,18 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
-        // javascript
         {
             "type": "node",
             "request": "launch",
             "name": "Javascript debug",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": ["/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"],
+            "args": [
+                "/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"
+            ],
             "windows": {
-              "args": ["Users\\hwangjaehyeon\\VScodeWS\\JavaScriptWS\\test.js"]
+                "args": [
+                    "Users\\hwangjaehyeon\\VScodeWS\\JavaScriptWS\\test.js"
+                ]
             }
         },
-        // java
         {
             "type": "java",
             "name": "Java debug",
@@ -20,7 +22,6 @@
             "mainClass": "javaws.test",
             "projectName": "VScodeWS_c64b54fb"
         },
-        // python
         {
             "name": "Python debug",
             "type": "python",
@@ -29,7 +30,6 @@
             "console": "integratedTerminal",
             "justMyCode": false
         },
-        // c, c++
         {
             "type": "lldb",
             "request": "launch",
@@ -38,6 +38,5 @@
             "args": [],
             "cwd": "${workspaceRoot}"
         },
-    
     ]
 }

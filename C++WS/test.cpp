@@ -5,7 +5,7 @@ int main()
 {
     int a=100, b=2;
 
-    cout << a * b << endl;
+    cout << a * b * b << endl;
 
     return 0;
 }
