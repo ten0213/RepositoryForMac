@@ -12,10 +12,7 @@
 
 ## 4. Java 실행
 
-  * "/usr/bin/env /Library/Java/JavaVirtualMachines/temurin-17.jd
-k/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /Users/hwangjaehyeon/Library/Application\ Sup
-port/Code/User/workspaceStorage/a7884351845c49880d6951b6da5a2727/redhat.java/jdt_ws/VScodeWS_c64b54fb/bin javaws.t
-est"
+  * "javac ./javaws/test.java" 로 클래스 파일 작성 후, "java javaws/test" 으로 실행
 
 ## 5. Javascript 실행
 

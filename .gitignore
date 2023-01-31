@@ -3,7 +3,6 @@
 .exe
 **/*.exe
 /.exe
-.class
 **/*.class
 /.vscode
 CWS/test

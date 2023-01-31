@@ -6,14 +6,10 @@
             "request": "launch",
             "name": "Javascript debug",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [
-                "/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"
-            ],
-            "windows": {
-                "args": [
-                    "Users\\hwangjaehyeon\\VScodeWS\\JavaScriptWS\\test.js"
-                ]
-            }
+            
+                // "args": [
+                //     "Users\\hwangjaehyeon\\VScodeWS\\JavaScriptWS\\test.js"
+                // ]
         },
         {
             "type": "java",
@@ -38,5 +34,6 @@
             "args": [],
             "cwd": "${workspaceRoot}"
         },
+
     ]
 }
