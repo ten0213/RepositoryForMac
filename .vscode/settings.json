@@ -6,7 +6,7 @@
   "settingsSync.ignoredSettings": [
     "editor.fontFamily"
   ],
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Consolas",
   "terminal.integrated.fontSize": 20,
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
