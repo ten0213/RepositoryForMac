@@ -19,4 +19,4 @@
   * "node JavaScriptWS/test.js"
 ## 6. swift 실행
 
-  * swift "/Users/hwangjaehyeon/VScodeWS/swiftWS/test.swift"
+  * swift "/Users/hwangjaehyeon/VScodeWS/SwiftWS/Sources/SwiftWS/main.swift"
