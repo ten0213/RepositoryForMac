@@ -1,81 +1,60 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Javascript debug",
-            "program": "${fileDirname}/${fileBasenameNoExtension}"
-        },
-        {
-            "type": "java",
-            "name": "Java debug",
-            "request": "launch",
-            "mainClass": "javaws.test",
-            "projectName": "VScodeWS_c64b54fb"
-        },
-        {
-            "name": "Python debug",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": false
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "C/C++ debug(Lldb)",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "cwd": "${workspaceRoot}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug SwiftWS",
-            "program": "${workspaceFolder:SwiftWS}/.build/debug/SwiftWS",
-            "args": [],
-            "cwd": "${workspaceFolder:SwiftWS}",
-            "preLaunchTask": "swift: Build Debug SwiftWS"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Release SwiftWS",
-            "program": "${workspaceFolder:SwiftWS}/.build/release/SwiftWS",
-            "args": [],
-            "cwd": "${workspaceFolder:SwiftWS}",
-            "preLaunchTask": "swift: Build Release SwiftWS"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Test SwiftWS",
-            "program": "/Applications/Xcode.app/Contents/Developer/usr/bin/xctest",
-            "args": [
-                ".build/debug/SwiftWSPackageTests.xctest"
-            ],
-            "cwd": "${workspaceFolder:SwiftWS}",
-            "preLaunchTask": "swift: Build All"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug SwiftWS (SwiftWS)",
-            "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
-            "args": [],
-            "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-            "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Release SwiftWS (SwiftWS)",
-            "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
-            "args": [],
-            "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-            "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Javascript debug",
+      "program": "${fileDirname}/${fileBasenameNoExtension}"
+    },
+    {
+      "type": "java",
+      "name": "Java debug",
+      "request": "launch",
+      "mainClass": "javaws.test",
+      "projectName": "VScodeWS_c64b54fb"
+    },
+    {
+      "name": "Python debug",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "C/C++ debug(Lldb)",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hwangjaehyeon/VScodeWS",
+      "program": "/Users/hwangjaehyeon/VScodeWS/build/Debug/outDebug"
+    }
+  ]
 }
