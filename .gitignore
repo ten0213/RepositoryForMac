@@ -1,8 +1,7 @@
 .DS_Store
-.json
 .exe
 **/*.exe
 /.exe
 **/*.class
-/.vscode
+
 CWS/test
