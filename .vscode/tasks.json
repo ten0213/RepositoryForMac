@@ -38,6 +38,21 @@
             },
             "group": "build",
             "problemMatcher": []
+        },
+        {
+            "type": "swift",
+            "args": [
+                "build",
+                "--product",
+                "SwiftWS"
+            ],
+            "cwd": "/Users/hwangjaehyeon/VScodeWS/SwiftWS",
+            "problemMatcher": [
+                "$swiftc"
+            ],
+            "group": "build",
+            "label": "swift: Build Debug SwiftWS (SwiftWS)",
+            "detail": "swift build --product SwiftWS"
         }
     ]
 }

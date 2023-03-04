@@ -5,7 +5,8 @@
       "type": "node",
       "request": "launch",
       "name": "Javascript debug",
-      "program": "${fileDirname}/${fileBasenameNoExtension}"
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "console": "integratedTerminal"
     },
     {
       "type": "java",
@@ -33,28 +34,11 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug SwiftWS (SwiftWS)",
+      "name": "Swift debug",
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
       "args": [],
       "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
       "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "name": "Release SwiftWS (SwiftWS)",
-      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
-      "args": [],
-      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/hwangjaehyeon/VScodeWS",
-      "program": "/Users/hwangjaehyeon/VScodeWS/build/Debug/outDebug"
     }
   ]
 }

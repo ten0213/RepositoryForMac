@@ -18,7 +18,7 @@
 
 ## 5. Javascript 실행
 
-* "node JavaScriptWS/test.js"
+* node "/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"
 
 ## 6. swift 실행
 
