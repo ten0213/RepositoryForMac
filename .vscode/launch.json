@@ -13,7 +13,8 @@
       "name": "Java debug",
       "request": "launch",
       "mainClass": "javaws.test",
-      "projectName": "VScodeWS_c64b54fb"
+      "projectName": "VScodeWS_c64b54fb",
+      "console": "integratedTerminal"
     },
     {
       "name": "Python debug",
@@ -29,7 +30,8 @@
       "name": "C/C++ debug(Lldb)",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
-      "cwd": "${workspaceRoot}"
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal",
     },
     {
       "type": "lldb",
@@ -39,6 +41,24 @@
       "args": [],
       "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
       "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
     }
   ]
 }

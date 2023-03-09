@@ -1,4 +1,6 @@
 {
+
+  
   "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontSize": 20,
@@ -8,7 +10,7 @@
   ],
   "editor.fontFamily": "Consolas",
   "terminal.integrated.fontSize": 20,
-  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+  "java.jdt.ls.java.home": "/Users/hwangjaehyeon/zulu17.40.19-ca-jdk17.0.6-macosx_aarch64/zulu-17.jdk/Contents/Home",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
   "C_Cpp_Runner.cppCompilerPath": "/usr/bin/clang++",
   "C_Cpp_Runner.debuggerPath": "/usr/bin/lldb",
