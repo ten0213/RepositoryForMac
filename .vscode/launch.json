@@ -1,13 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
-    // {
-    //   "type": "java",
-    //   "name": "test",
-    //   "request": "launch",
-    //   "mainClass": "javaws.test",
-    //   "projectName": "VScodeWS_c64b54fb"
-    // },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "javaws.test",
+      "projectName": "VScodeWS_c64b54fb"
+    },
     {
       "type": "node",
       "request": "launch",
