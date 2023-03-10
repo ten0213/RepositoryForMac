@@ -2,6 +2,7 @@
     "recommendations": [
         "formulahendry.code-runner",
         "pieterjongsma.swift-playgrounds",
-        "makeitbetter.vscode-swift-test-adapter"
+        "makeitbetter.vscode-swift-test-adapter",
+        "vscjava.vscode-java-debug"
     ]
 }

@@ -1,4 +1,4 @@
 select * 
 from Book
-WHERE bookid BETWEEN 1 and 8;
+WHERE bookid BETWEEN 4 and 6;
 

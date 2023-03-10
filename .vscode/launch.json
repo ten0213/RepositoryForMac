@@ -1,6 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
+    // {
+    //   "type": "java",
+    //   "name": "test",
+    //   "request": "launch",
+    //   "mainClass": "javaws.test",
+    //   "projectName": "VScodeWS_c64b54fb"
+    // },
     {
       "type": "node",
       "request": "launch",
@@ -9,12 +16,12 @@
       "console": "integratedTerminal"
     },
     {
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasename}",
       "type": "java",
       "name": "Java debug",
       "request": "launch",
-      "mainClass": "javaws.test",
-      "projectName": "VScodeWS_c64b54fb",
-      "console": "integratedTerminal"
+      "jdkPath": "/Users/hwangjaehyeon/zulu17.40.19-ca-jdk17.0.6-macosx_aarch64/zulu-17.jdk/Contents/Home/bin"
     },
     {
       "name": "Python debug",
@@ -31,7 +38,7 @@
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
       "cwd": "${workspaceRoot}",
-      "console": "integratedTerminal",
+      "console": "integratedTerminal"
     },
     {
       "type": "lldb",
