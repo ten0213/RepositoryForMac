@@ -2,19 +2,19 @@
 
 ## 1. C 실행
 
-* "gcc CWS/test.c" 로 빌드 후, "./a.out" 으로 실행
+* gcc CWS/test.c && ./a.out
 
 ## 2. C++ 실행
 
-* "g++ C++WS/test.cpp" 로 빌드 후, "./a.out" 으로 실행
+* g++ C++WS/test.cpp ./a.out
 
 ## 3. Python 실행
 
-* "/usr/local/bin/python3 pythonWS/test.py"
+* /usr/local/bin/python3 pythonWS/test.py
 
 ## 4. Java 실행
 
-* "javac ./javaws/test.java" 로 클래스 파일 작성 후, "java javaws/test" 으로 실행
+* javac "./javaws/test.java" && java "javaws/test"
 
 ## 5. Javascript 실행
 
@@ -30,8 +30,8 @@
 
 ## 8. Rust 실행
 
-* cd "/Users/hwangjaehyeon/VScodeWS/Rust_WS/src/" && rustc main.rs && "/Users/hwangjaehyeon/VScodeWS/Rust_WS/src/"main
+* cd /Users/hwangjaehyeon/VScodeWS/rustws/src && rustc main.rs && /Users/hwangjaehyeon/VScodeWS/rustws/src/main
 
 ## 9. Ruby 실행
 
-* ruby "/Users/hwangjaehyeon/VScodeWS/RubyWS/test.rb"
+* ruby /Users/hwangjaehyeon/VScodeWS/RubyWS/test.rb
