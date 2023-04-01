@@ -5,3 +5,4 @@
 **/*.class
 
 CWS/test
+SwiftWS/.build/*.bin
