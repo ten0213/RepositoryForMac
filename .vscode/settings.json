@@ -3,6 +3,7 @@
   
   "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontSize": 20,
   "terminal.integrated.fontFamily": "monospace",
   "settingsSync.ignoredSettings": [
@@ -158,9 +159,9 @@
     }
   ],
   "editor.quickSuggestions": {
-    "comments": "off",
-    "strings": "off",
-    "other": "off"
+    "comments": true,
+    "strings": true,
+    "other": true
   },
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
 }

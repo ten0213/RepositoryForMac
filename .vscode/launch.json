@@ -1,6 +1,55 @@
 {
   "version": "0.2.0",
   "configurations": [
+
+    {
+      "name": "Ruby debug",
+      "type": "Ruby",
+      "request": "launch",
+      "program": "${workspaceRoot}/RubyWS/test.rb",
+      "internalConsoleOptions": "openOnSessionStart",
+
+
+    },
+    // {
+    //   "type": "lldb",
+    //   "request": "launch",
+    //   "name": "Debug executable 'example'",
+    //   "cargo": {
+    //     "args": [
+    //       "build",
+    //       "--bin=example",
+    //       "--package=example"
+    //     ],
+    //     "filter": {
+    //       "name": "example",
+    //       "kind": "bin"
+    //     }
+    //   },
+    //   "args": [],
+    //   "program": "${workspaceRoot}/target/debug/main",
+    //   "cwd": "${workspaceRoot}/target",
+    //   "sourceLanguages": ["rust"]
+    // },
+    {
+      "name": "Rust debug",
+      "type": "lldb",
+      "console": "integratedTerminal",
+      "request": "launch",
+      "program": "/Users/hwangjaehyeon/VScodeWS/rustws/src/main",
+      "cwd": "${workspaceRoot}",
+
+
+
+    },
+    {
+      "name": "Golang debug",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
     {
       "type": "java",
       "name": "test",
@@ -47,7 +96,8 @@
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
       "args": [],
       "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
+      "console": "integratedTerminal"
     },
     {
       "type": "lldb",
@@ -56,16 +106,20 @@
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
       "args": [],
       "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "name": "Release SwiftWS (SwiftWS)",
-      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
-      "args": [],
-      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
+      "console": "integratedTerminal"
     }
+    // {
+    //   "type": "lldb",
+    //   "request": "launch",
+    //   "sourceLanguages": [
+    //     "swift"
+    //   ],
+    //   "name": "Release SwiftWS (SwiftWS)",
+    //   "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
+    //   "args": [],
+    //   "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+    //   "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
+    // }
   ]
 }

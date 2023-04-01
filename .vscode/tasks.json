@@ -53,6 +53,15 @@
             "group": "build",
             "label": "swift: Build Debug SwiftWS (SwiftWS)",
             "detail": "swift build --product SwiftWS"
+        },
+        {
+            "type": "cargo",
+            "command": "build",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "rust: cargo build"
         }
     ]
 }
