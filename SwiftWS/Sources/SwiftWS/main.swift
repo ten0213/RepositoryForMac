@@ -3,4 +3,4 @@ func sayHelloWorld() -> String {
 }
 print(sayHelloWorld());
 
-print("Hello world!");  
+print("Hello world!");
