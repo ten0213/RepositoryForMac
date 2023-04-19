@@ -1,6 +1,5 @@
 package javaws;
 import java.util.Scanner;
-
 public class test {
 
 	public static void main(String[] args) {
@@ -19,7 +18,8 @@ public class test {
 		// 정렬 결과를 출력
 		System.out.println(select(array, 0, n - 1, 1)); // 1번째로 작은 수
 		System.out.println(select(array, 0, n - 1, n / 2)); // n/2번째로 작은 수
-		System.out.println(select(array, 0, n - 1, n)); // n번째로 작은
+		System.out.println(select(array, 0, n - 1, n)); // n번째로 작은 수
+
 
 		input.close(); // Scanner 객체 사용 중지를 위해 close() 메소드 호출
 	}
@@ -60,3 +60,4 @@ public class test {
 	}
 
 }
+

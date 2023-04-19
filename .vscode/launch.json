@@ -2,19 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "javaws.test",
+      "projectName": "VScodeWS_c64b54fb"
+    },
+    {
+
       "name": "Ruby debug",
       "type": "Ruby",
       "request": "launch",
-      "program": "${workspaceRoot}/RubyWS/test.rb",
-      "internalConsoleOptions": "openOnSessionStart"
-    },
-    {
-      "name": "Rust debug",
-      "type": "lldb",
-      "console": "integratedTerminal",
-      "request": "launch",
-      "program": "/Users/hwangjaehyeon/VScodeWS/rustws/src/main",
-      "cwd": "${workspaceRoot}"
+      "program": "${workspaceRoot}/RubyWS/test.rb"
     },
     {
       "name": "Golang debug",
@@ -23,13 +22,6 @@
       "mode": "debug",
       "program": "${file}",
       "console": "integratedTerminal"
-    },
-    {
-      "type": "java",
-      "name": "test",
-      "request": "launch",
-      "mainClass": "javaws.test",
-      "projectName": "VScodeWS_c64b54fb"
     },
     {
       "type": "node",

@@ -1,9 +1,18 @@
 #include "test.h"
-int main(int argc, char* argv[])
-{								
-	int i = 0;
-	for (i = 0; i < argc; i++)
-		printf("명령어 라인에서 %d번째 문자열 = %s\n", i, argv[i]);
 
-	return 0;
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+
+    if(sizeof(a) != sizeof(int) || sizeof(b) != sizeof(int))
+    {
+        printf("Bad input");
+    }
+    else {
+        double result = (double)a / b * 100;
+        printf("%.1lf%%\n", result);
+    }
+    return 0;
 }
