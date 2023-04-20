@@ -6,7 +6,7 @@
 
 ## 2. C++ 실행
 
-* g++ C++WS/test.cpp ./a.out
+* g++ C++WS/test.cpp && ./a.out
 
 ## 3. Python 실행
 
