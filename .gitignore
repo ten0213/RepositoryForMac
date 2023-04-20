@@ -9,3 +9,6 @@ package-lock.json
 CWS/test
 SwiftWS/.build/*.bin
 JavaScriptWS/node_modules
+rustws
+C++WS/test
+CWS/test
