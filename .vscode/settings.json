@@ -1,6 +1,6 @@
 {
 
-  
+
   "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
   "workbench.iconTheme": "material-icon-theme",
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -138,11 +138,10 @@
       "previewLimit": 50,
       "server": "localhost",
       "port": 3306,
-      "driver": "MariaDB",
-      "name": "madang",
-      "database": "madang_mysql",
-      "username": "root",
-      "password": "1234"
+      "driver": "MySQL",
+      "name": "mysql",
+      "database": "sys",
+      "username": "root"
     },
     {
       "mysqlOptions": {
@@ -153,9 +152,20 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "hr",
-      "database": "hr_mysql",
-      "username": "root",
-      "password": "1234"
+      "database": "hr",
+      "username": "root"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "madang",
+      "database": "madang",
+      "username": "root"
     }
   ],
   "editor.quickSuggestions": {

@@ -4,4 +4,5 @@ fn write_header() {
 
 fn main() {
     write_header();
+
 }

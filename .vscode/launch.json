@@ -9,7 +9,6 @@
       "projectName": "VScodeWS_c64b54fb"
     },
     {
-
       "name": "Ruby debug",
       "type": "Ruby",
       "request": "launch",
@@ -49,7 +48,7 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "C/C++ debug(Lldb)",
+      "name": "C/C++ debug",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
       "cwd": "${workspaceRoot}",
@@ -78,9 +77,7 @@
     {
       "type": "lldb",
       "request": "launch",
-      "sourceLanguages": [
-        "swift"
-      ],
+      "sourceLanguages": ["swift"],
       "name": "Release SwiftWS (SwiftWS)",
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
       "args": [],
