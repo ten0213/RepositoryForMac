@@ -151,9 +151,36 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
-      "name": "hr",
+      "name": "cookdb",
+      "database": "cookdb",
+      "username": "root",
+      "password": "1234"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "hr_mysql",
+      "database": "hr_mysql",
+      "username": "user1",
+      "password": "skhuA+4.5"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "hr_std",
       "database": "hr",
-      "username": "root"
+      "username": "root",
+      "password": "1234"
     },
     {
       "mysqlOptions": {
@@ -164,8 +191,9 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "madang",
-      "database": "madang",
-      "username": "root"
+      "database": "madang_mysql",
+      "username": "root",
+      "password": "1234"
     }
   ],
   "editor.quickSuggestions": {
