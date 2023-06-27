@@ -41,6 +41,7 @@
     "**/.vscode/**"
   ],
   "files.associations": {
+    "*.java": "java",
     "iomanip": "cpp",
     "iostream": "cpp",
     "ios": "c",
@@ -111,7 +112,9 @@
     "stdio.h": "c",
     "__availability": "c",
     "test.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "string.h": "c",
+    "__verbose_abort": "cpp"
   },
   "files.exclude": {
     "**/*.exe": true,

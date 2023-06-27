@@ -14,3 +14,4 @@ C++WS/test
 CWS/test
 .bin
 
+rustws/target/.rustc_info.json
