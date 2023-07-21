@@ -62,6 +62,18 @@
             ],
             "group": "build",
             "label": "rust: cargo build"
-        }
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "build",
+                "${workspaceFolder}/04/04.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+
+        },
     ]
 }

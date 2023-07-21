@@ -129,6 +129,7 @@
     ".vscode": true
   },
   "code-runner.executorMap": {
+    "csharp": "cd C#WS && dotnet run test.cs && cd /Users/hwangjaehyeon/VScodeWS" ,
 
     "python": "/usr/local/bin/python3",
     "java": "cd \"/Users/hwangjaehyeon/VScodeWS/\" && javac javaws/test.java && java javaws/test",
@@ -205,4 +206,6 @@
     "other": true
   },
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+
 }

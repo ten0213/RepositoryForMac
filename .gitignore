@@ -13,5 +13,7 @@ rustws
 C++WS/test
 CWS/test
 .bin
+C#WS/bin
+C#WS/obj
+C#WS/scriptcs_bin
 
-rustws/target/.rustc_info.json

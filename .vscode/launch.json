@@ -2,6 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "/Users/hwangjaehyeon/VScodeWS/C#WS/bin/Debug/net7.0/C#WS.dll",
+      "args": [],
+      "justMyCode": false,
+      "stopAtEntry": true,
+      "requireExactSource": false,
+
+    },
+
+
+
+    {
       "type": "java",
       "name": "test",
       "request": "launch",
