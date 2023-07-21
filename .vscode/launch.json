@@ -1,8 +1,18 @@
 {
   "version": "0.2.0",
   "configurations": [
+
+
+
     {
-      "name": ".NET Core Launch (console)",
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "javaws.test",
+      "projectName": "VScodeWS_c64b54fb"
+    },
+    {
+      "name": "C# debug",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
@@ -14,15 +24,6 @@
 
     },
 
-
-
-    {
-      "type": "java",
-      "name": "test",
-      "request": "launch",
-      "mainClass": "javaws.test",
-      "projectName": "VScodeWS_c64b54fb"
-    },
     {
       "name": "Ruby debug",
       "type": "Ruby",
