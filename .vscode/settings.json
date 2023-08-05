@@ -207,5 +207,7 @@
   },
   "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
+  "dotnet.defaultSolution": "C#WS/C#WS.sln",
+  "dotnet.completion.showNameCompletionSuggestions": false,
 
 }

@@ -69,7 +69,7 @@
             "type": "shell",
             "args": [
                 "build",
-                "${workspaceFolder}/04/04.csproj",
+                "${workspaceFolder}/C#WS.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
