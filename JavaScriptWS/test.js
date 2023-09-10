@@ -1,4 +1,3 @@
-let a = "Hello"
-let b = "world!"
-console.log(`${a}` + ' ' + `${b}`)
+let a = 3, b = "3";
 
+console.log(a == b);
