@@ -129,10 +129,10 @@
     ".vscode": true
   },
   "code-runner.executorMap": {
-    "csharp": "cd C#WS && dotnet run test.cs && cd /Users/hwangjaehyeon/VScodeWS" ,
+    "csharp": "cd C#WS && dotnet run Program.cs && cd .." ,
 
     "python": "/usr/local/bin/python3",
-    "java": "cd \"/Users/hwangjaehyeon/VScodeWS/\" && javac javaws/test.java && java javaws/test",
+    "java": "cd /Users/hwangjaehyeon/VScodeWS/ && javac javaws/test.java && java javaws/test",
   },
   "sqltools.connections": [
     {

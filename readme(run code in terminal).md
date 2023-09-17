@@ -10,7 +10,7 @@
 
 ## 3. C# 실행
 
-* cd C#WS && dotnet run test.cs && cd /Users/hwangjaehyeon/VScodeWS
+* cd C#WS && dotnet run Program.cs && cd ..
 
 ## 4. Python 실행
 
@@ -24,18 +24,22 @@
 
 * node "/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"
 
-## 7. swift 실행
+## 7. Typescript 실행
+
+* ts-node "/Users/hwangjaehyeon/VScodeWS/TypeScriptWS/test.ts"
+
+## 8. swift 실행
 
 * swift "/Users/hwangjaehyeon/VScodeWS/SwiftWS/Sources/SwiftWS/main.swift"
 
-## 8. Golang 실행
+## 9. Golang 실행
 
 * go run "/Users/hwangjaehyeon/VScodeWS/GolangWS/test.go"
 
-## 9. Rust 실행
+## 10. Rust 실행
 
 * cd /Users/hwangjaehyeon/VScodeWS/rustws/src && rustc main.rs && /Users/hwangjaehyeon/VScodeWS/rustws/src/main
 
-## 10. Ruby 실행
+## 11. Ruby 실행
 
 * ruby /Users/hwangjaehyeon/VScodeWS/RubyWS/test.rb
