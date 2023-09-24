@@ -2,11 +2,11 @@
 
 ## 1. C 실행
 
-* gcc CWS/test.c && ./a.out
+* cd CWS && gcc test.c && ./a.out && cd ..
 
 ## 2. C++ 실행
 
-* g++ C++WS/test.cpp && ./a.out
+* cd C++WS && g++ test.cpp && ./a.out && cd ..
 
 ## 3. C# 실행
 
@@ -14,32 +14,32 @@
 
 ## 4. Python 실행
 
-* /usr/local/bin/python3 pythonWS/test.py
+* cd PythonWS && /usr/local/bin/python3 test.py && cd ..
 
 ## 5. Java 실행
 
-* javac "./javaws/test.java" && java "javaws/test"
+* cd javaws && javac test.java && java test.java && cd ..
 
 ## 6. Javascript 실행
 
-* node "/Users/hwangjaehyeon/VScodeWS/JavaScriptWS/test.js"
+* cd JavaScriptWS && node test.js && cd .."
 
 ## 7. Typescript 실행
 
-* ts-node "/Users/hwangjaehyeon/VScodeWS/TypeScriptWS/test.ts"
+* cd TypeScriptWS && ts-node test.ts && cd ..
 
 ## 8. swift 실행
 
-* swift "/Users/hwangjaehyeon/VScodeWS/SwiftWS/Sources/SwiftWS/main.swift"
+* cd SwiftWS/Sources/SwiftWS && swift main.swift && cd ..
 
 ## 9. Golang 실행
 
-* go run "/Users/hwangjaehyeon/VScodeWS/GolangWS/test.go"
+* cd GolangWS && go run test.go && cd ..
 
 ## 10. Rust 실행
 
-* cd rustws/src && rustc main.rs && main
+* cd rustws/src && rustc main.rs && ./main && cd ..
 
 ## 11. Ruby 실행
 
-* ruby /Users/hwangjaehyeon/VScodeWS/RubyWS/test.rb
+* cd RubyWS && ruby test.rb && cd ..
