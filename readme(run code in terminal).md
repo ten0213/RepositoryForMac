@@ -38,7 +38,7 @@
 
 ## 10. Rust 실행
 
-* cd /Users/hwangjaehyeon/VScodeWS/rustws/src && rustc main.rs && /Users/hwangjaehyeon/VScodeWS/rustws/src/main
+* cd rustws/src && rustc main.rs && main
 
 ## 11. Ruby 실행
 

@@ -114,7 +114,8 @@
     "test.h": "c",
     "stdlib.h": "c",
     "string.h": "c",
-    "__verbose_abort": "cpp"
+    "__verbose_abort": "cpp",
+    "charconv": "cpp"
   },
   "files.exclude": {
     "**/*.exe": true,
@@ -129,10 +130,17 @@
     ".vscode": true
   },
   "code-runner.executorMap": {
+    "c": "cd CWS && gcc test.c && ./a.out && cd ..",
     "csharp": "cd C#WS && dotnet run Program.cs && cd .." ,
-
-    "python": "/usr/local/bin/python3",
-    "java": "cd /Users/hwangjaehyeon/VScodeWS/ && javac javaws/test.java && java javaws/test",
+    "cpp": "cd C++WS && g++ test.cpp && ./a.out && cd ..",
+    "python": "cd PythonWS && /usr/local/bin/python3 test.py && cd ..",
+    "java": "cd javaws && javac test.java && java test.java && cd ..",
+    "go": "cd GolangWS && go run test.go && cd ..",
+    "javascript": "cd JavaScriptWS && node test.js && cd ..",
+    "rust": "cd rustws/src && rustc main.rs && ./main && cd ..",
+    "ruby": "cd RubyWS && ruby test.rb && cd ..",
+    "typescript": "cd TypeScriptWS && ts-node test.ts && cd ..",
+    "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .."
   },
   "sqltools.connections": [
     {

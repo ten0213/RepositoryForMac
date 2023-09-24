@@ -1,4 +1,5 @@
-﻿namespace test
+﻿
+namespace test
 {
     class Program
     {
