@@ -1,3 +1,2 @@
-let a = 3, b = "3";
+console.log("Hello world!");
 
-console.log(a == b);

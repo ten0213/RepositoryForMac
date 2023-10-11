@@ -137,10 +137,10 @@
     "java": "cd javaws && javac test.java && java test.java && cd ..",
     "go": "cd GolangWS && go run test.go && cd ..",
     "javascript": "cd JavaScriptWS && node test.js && cd ..",
-    "rust": "cd rustws/src && rustc main.rs && ./main && cd ..",
+    "rust": "cd rustws/src && rustc main.rs && ./main && cd .. && cd ..",
     "ruby": "cd RubyWS && ruby test.rb && cd ..",
     "typescript": "cd TypeScriptWS && ts-node test.ts && cd ..",
-    "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .."
+    "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd .."
   },
   "sqltools.connections": [
     {
