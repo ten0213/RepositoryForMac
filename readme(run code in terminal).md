@@ -30,7 +30,7 @@
 
 ## 8. swift 실행
 
-* cd SwiftWS/Sources/SwiftWS && swift main.swift && cd ..
+* cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd ..
 
 ## 9. Golang 실행
 
@@ -38,7 +38,7 @@
 
 ## 10. Rust 실행
 
-* cd rustws/src && rustc main.rs && ./main && cd ..
+* cd rustws/src && rustc main.rs && ./main && cd .. && cd ..
 
 ## 11. Ruby 실행
 

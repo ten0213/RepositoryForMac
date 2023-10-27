@@ -1,7 +1,6 @@
 package javaws;
 
 import java.util.Arrays;
-
 public class test {
 
     static double average1(String s) {
@@ -20,14 +19,14 @@ public class test {
     static Double average2(String s) {
         return Arrays.stream(s.split("[, ]+"))
             .mapToInt(Integer::parseInt)
-            .filter(e -> e > 0)
+            .filter( e -> e > 0)
             .average()
             .getAsDouble();
     }
 
 
     public static void main(String[] args) {
-        String s = "7, 13, -8, 6,9, 15, 0, -21,2,5";
+        String s = "3, 3,3 33,3 ,3,3 ,33";
         System.out.println(average1(s));
         System.out.println(average2(s));
     }
