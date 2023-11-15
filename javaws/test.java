@@ -1,33 +1,15 @@
-package javaws;
+import java.util.Scanner;
 
-import java.util.Arrays;
 public class test {
-
-    static double average1(String s) {
-        String[] a = s.split("[, ]+");
-        int sum = 0, count = 0;
-        for (int i = 0; i < a.length; ++i) {
-            int value = Integer.valueOf(a[i]);
-            if (value > 0) {
-                sum += value;
-                ++count;
-            }
-        }
-        return (double)sum / count;
-    }
-
-    static Double average2(String s) {
-        return Arrays.stream(s.split("[, ]+"))
-            .mapToInt(Integer::parseInt)
-            .filter( e -> e > 0)
-            .average()
-            .getAsDouble();
-    }
-
-
     public static void main(String[] args) {
-        String s = "3, 3,3 33,3 ,3,3 ,33";
-        System.out.println(average1(s));
-        System.out.println(average2(s));
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("hello world!");
+        System.out.println("h");
+        int a = sc.nextInt();
+
+        System.out.print(a);
+
+        sc.close();
     }
 }

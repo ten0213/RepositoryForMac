@@ -1,10 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
-  
-
-
-
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "VScodeWS_c64b54fb"
+    },
     {
       "type": "java",
       "name": "test",
@@ -21,10 +24,8 @@
       "args": [],
       "justMyCode": false,
       "stopAtEntry": true,
-      "requireExactSource": false,
-
+      "requireExactSource": false
     },
-
     {
       "name": "Ruby debug",
       "type": "Ruby",
@@ -94,12 +95,22 @@
     {
       "type": "lldb",
       "request": "launch",
-      "sourceLanguages": ["swift"],
+      "sourceLanguages": [
+        "swift"
+      ],
       "name": "Release SwiftWS (SwiftWS)",
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
       "args": [],
       "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
       "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hwangjaehyeon/VScodeWS/CWS",
+      "program": "/Users/hwangjaehyeon/VScodeWS/CWS/build/Debug/outDebug"
     }
   ]
 }

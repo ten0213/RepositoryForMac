@@ -2,11 +2,12 @@
 
 ## 1. C 실행
 
-* cd CWS && gcc test.c && ./a.out && cd ..
+* cd CWS && gcc test.c -o test.out && ./test.out && cd ..
 
 ## 2. C++ 실행
 
-* cd C++WS && g++ test.cpp && ./a.out && cd ..
+* cd C++WS && g++ test.cpp -o test.out && ./test.out && cd ..
+* cd C++WS && g++ -std=c++14 -Wall test.cpp -o test.out && ./test.out && cd ..
 
 ## 3. C# 실행
 
@@ -43,3 +44,7 @@
 ## 11. Ruby 실행
 
 * cd RubyWS && ruby test.rb && cd ..
+
+## 12. Kotlin 실행
+
+* cd KotlinWS && kotlinc test.kt && java -jar test.jar && cd ..
