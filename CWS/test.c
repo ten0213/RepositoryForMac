@@ -183,7 +183,7 @@ element* infix_to_postfix(element exp[])
       return NULL;
    }
 
-   int i, idx = 0; //i는 for문의 제어변수, idx는 post_arr의 index
+   int idx = 0; //i는 for문의 제어변수, idx는 post_arr의 index
    int len = strlen(exp);
    char ch, op;
    StackType s;

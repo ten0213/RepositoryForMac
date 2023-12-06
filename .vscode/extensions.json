@@ -4,6 +4,7 @@
         "pieterjongsma.swift-playgrounds",
         "makeitbetter.vscode-swift-test-adapter",
         "vscjava.vscode-java-debug",
-        "ms-dotnettools.csharp"
+        "ms-dotnettools.csharp",
+        "mathiasfrohlich.kotlin"
     ]
 }

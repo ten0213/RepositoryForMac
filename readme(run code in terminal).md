@@ -45,6 +45,3 @@
 
 * cd RubyWS && ruby test.rb && cd ..
 
-## 12. Kotlin 실행
-
-* cd KotlinWS && kotlinc test.kt && java -jar test.jar && cd ..

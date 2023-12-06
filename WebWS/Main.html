@@ -3,14 +3,28 @@
   <meta charset="utf-8" />
   <script src="https://unpkg.com/vue@next"></script>
   <style>
-    div#app { padding: 30px; margin: 30px auto; width: 400px;
-      border: 1px solid #ccc; box-shadow: 3px 3px 3px #aaa; }
-    div#app div { margin-bottom: 20px; }
-    label { display: block; }
-    input[type=text] { padding: 4px; }
+    div#app {
+      padding: 30px;
+      margin: 30px auto;
+      width: 400px;
+      border: 1px solid #ccc;
+      box-shadow: 3px 3px 3px #aaa;
+  }
+  div#app div {
+      margin-bottom: 20px;
+  }
+
+  label {
+      display: block;
+  }
+
+  input[type=text] {
+      padding: 4px;
+  }
   </style>
 </head>
 <body>
+<title>주문 계산기</title>
   <div id="app">
     <h1>주문</h1>
     <div>
@@ -28,26 +42,6 @@
     </div>
   </div>
 
-  <script type="text/javascript">
-    let app = {
-      data() {
-        return {
-          quantity: 1,
-          price: 150
-        };
-      },
-      computed:  {
-        total : {
-          get() {
-            return this.quantity * this.price;
-          },
-          set(value) {
-            this.quantity = value / this.price;
-          }
-        }
-      }
-    };
-    Vue.createApp(app).mount("#app");
-  </script>
+  <script type="text/javascript" src="Main.js"></script>
 </body>
 </html>
