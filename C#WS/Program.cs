@@ -7,6 +7,7 @@ namespace test
         static void Main()
         {
             Console.WriteLine("Hello world!");
+            Console.WriteLine("Welcome!");
 
         }
     }

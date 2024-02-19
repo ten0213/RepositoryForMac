@@ -44,4 +44,3 @@
 ## 11. Ruby 실행
 
 * cd RubyWS && ruby test.rb && cd ..
-

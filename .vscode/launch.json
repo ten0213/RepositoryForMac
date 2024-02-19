@@ -9,11 +9,13 @@
       "projectName": "VScodeWS_c64b54fb"
     },
     {
-      "type": "java",
-      "name": "test",
+      "type": "lldb",
       "request": "launch",
-      "mainClass": "javaws.test",
-      "projectName": "VScodeWS_c64b54fb"
+      "name": "C/C++ debug",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
     },
     {
       "name": "C# debug",
@@ -66,15 +68,6 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "C/C++ debug",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
-      "args": [],
-      "cwd": "${workspaceRoot}",
-      "console": "integratedTerminal"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
       "name": "Swift debug",
       "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
       "args": [],
@@ -109,8 +102,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/hwangjaehyeon/VScodeWS/CWS",
-      "program": "/Users/hwangjaehyeon/VScodeWS/CWS/build/Debug/outDebug"
+      "cwd": "/Users/hwangjaehyeon/VScodeWS/C++WS",
+      "program": "/Users/hwangjaehyeon/VScodeWS/C++WS/build/Debug/outDebug"
     }
   ]
 }

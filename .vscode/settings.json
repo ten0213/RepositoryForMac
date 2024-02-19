@@ -3,12 +3,12 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.fontSize": 20,
-  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontFamily": "Consolas",
   "settingsSync.ignoredSettings": [
     "editor.fontFamily"
   ],
   "editor.fontFamily": "Consolas",
-  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontSize": 19,
   "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home",
   "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
   "C_Cpp_Runner.cppCompilerPath": "/usr/bin/clang++",
