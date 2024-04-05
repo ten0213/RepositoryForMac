@@ -113,7 +113,8 @@
     "stdlib.h": "c",
     "string.h": "c",
     "__verbose_abort": "cpp",
-    "charconv": "cpp"
+    "charconv": "cpp",
+    "_stdio.h": "c"
   },
   "files.exclude": {
     "**/*.exe": true,
@@ -237,6 +238,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "C_Cpp.errorSquiggles": "enabled"
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

@@ -15,7 +15,7 @@
 
 ## 4. Python 실행
 
-* cd PythonWS && /usr/local/bin/python3 test.py && cd ..
+* cd PythonWS && python3 test.py && cd ..
 
 ## 5. Java 실행
 
@@ -23,7 +23,7 @@
 
 ## 6. Javascript 실행
 
-* cd JavaScriptWS && node test.js && cd .."
+* cd JavaScriptWS && node test.js && cd ..
 
 ## 7. Typescript 실행
 
