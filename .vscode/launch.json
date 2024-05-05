@@ -104,6 +104,26 @@
       "args": [],
       "cwd": "/Users/hwangjaehyeon/VScodeWS/C++WS",
       "program": "/Users/hwangjaehyeon/VScodeWS/C++WS/build/Debug/outDebug"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-HelloApplication<hello>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "net.skhu.hello.HelloApplication",
+      "projectName": "hello",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TestApplication<test>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "net.skhu.TestApplication",
+      "projectName": "test",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
