@@ -139,7 +139,8 @@
     "rust": "cd rustws/src && rustc main.rs && ./main && cd .. && cd ..",
     "ruby": "cd RubyWS && ruby test.rb && cd ..",
     "typescript": "cd TypeScriptWS && ts-node test.ts && cd ..",
-    "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd .."
+    "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd ..",
+    "kotlin": "cd KotlinWS && kotlinc test.kt -include-runtime -d test.jar && java -jar test.jar && cd .."
   },
   "sqltools.connections": [
     {

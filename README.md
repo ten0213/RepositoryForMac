@@ -44,3 +44,19 @@
 ## 11. Ruby 실행
 
 * cd RubyWS && ruby test.rb && cd ..
+
+## 12. Spring Boot 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+
+* cd /Users/hwangjaehyeon/VScodeWS/SpringWS/test ; /usr/bin/env /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java @/var/folders/5p/lx0fvq710kx5mk749dgtc2cr0000gn/T/cp_d1d4js03u1utlnc4iqnp3mqeg.argfile net.skhu.TestApplication
+
+## 13. React 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+
+* cd ReactWS/test && npm start
+
+## 14. Vue 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+
+* cd VueWS/test && npm run serve
+
+## 15. kotlin 실행
+
+* cd KotlinWS && kotlinc test.kt -include-runtime -d test.jar && java -jar test.jar && cd ..
