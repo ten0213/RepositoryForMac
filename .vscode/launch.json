@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestApplication",
+      "request": "launch",
+      "mainClass": "TestApplication",
+      "projectName": "VScodeWS"
+    },
+    {
+      "type": "java",
       "name": "test",
       "request": "launch",
       "mainClass": "test",

@@ -1,27 +1,24 @@
 #include "test.h"
-#define LENGTH(a) sizeof(a) / sizeof(a[0])
+using namespace std;
 
-
-void print(int a[], int n)
+struct Point
 {
-    for (int i = 0; i < n; ++i)
-        printf("%d ", a[i]);
-}
+public:
+    void SetXY(int a, int b)
+    {
+        x = a;
+        y = b;
+    }
+    void Print() { cout << "(" << x << ", " << y << ")" << endl; }
 
-
-void insert(int a[], int n, int index, int value)
-{
-    for (int i = n - 1; i > index; --i)
-        a[i] = a[i - 1];
-    a[index] = value;
-}
+private:
+    int x;
+    int y;
+};
 int main()
 {
-    int a[10];
-    for (int i = 0; i < LENGTH(a); ++i)
-        a[i] = i;
-    insert(a, LENGTH(a), 9, 9);
-    print(a, LENGTH(a));
-    printf("\n");
+    Point pt1;
+    pt1.SetXY(3, 4);
+    pt1.Print();
     return 0;
 }

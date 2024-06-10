@@ -4,3 +4,4 @@ if id == "egong" || id == "k8805" or id == "sorialgi"
 else
   print "wrong"
 end
+print "\nHello world~"

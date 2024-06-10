@@ -5,7 +5,7 @@ let app = {
         price: 150
       };
     },
-    computed:  {
+    computed: {
       total : {
         get() {
           return this.quantity * this.price;

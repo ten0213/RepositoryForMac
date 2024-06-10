@@ -47,17 +47,21 @@
 
 ## 12. Spring Boot 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
 
-* 왼쪽 사이드바에서 "Spring Boot DashBoard" 선택 후 run 버튼 클릭
-* 접속 주소 : http://localhost:8088/home/index
-* 접속 중지 stop 버튼 클릭
+* cd SpringWS/test && /usr/bin/env /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java @/var/folders/5p/lx0fvq710kx5mk749dgtc2cr0000gn/T/cp_5uplyf8j7zjn0xo6uq6ckg8ik.argfile net.skhu.TestApplication
+* 접속 주소 : <http://localhost:8088/home/index>
+* 접속 중지 :  control + c
 
 ## 13. React 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
 
 * cd ReactWS/test && npm start
+* 접속 주소 : <http://localhost:3000>
+* 접속 중지 : control + c
 
 ## 14. Vue 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
 
 * cd VueWS/test && npm run serve
+* 접속 주소 : <http://localhost:8082>
+* 접속 중지 : control + c
 
 ## 15. kotlin 실행
 
@@ -69,7 +73,7 @@
 * SQL 문을 작성 후 실행
 * control + command + enter로 SQL 문 실행
 * 접속 해제는 왼쪽 사이드바에서 "SQL Tools" 선택 후 disconnect 버튼 클릭
-* 왼쪽 사이드바에서 "SQL Tools" 선택 후 연결하면 파일이 새로 생성되므로 disconnect만 사용해야 함
+* 왼쪽 사이드바에서 "SQL Tools" 선택 후 연결하면 파일이 새로 생성되어 버리므로, disconnect만 사용해야 함
 
 ## 16 WEB 페이지 실행
 
