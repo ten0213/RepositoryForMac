@@ -1,7 +1,7 @@
 let app = {
     data() {
       return {
-        quantity: 1,
+        quantity: 100,
         price: 150
       };
     },

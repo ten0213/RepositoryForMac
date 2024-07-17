@@ -45,9 +45,11 @@
 
 * cd RubyWS && ruby test.rb && cd ..
 
-## 12. Spring Boot 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+## 12. Spring Boot 실행
 
-* cd SpringWS/test && /usr/bin/env /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java @/var/folders/5p/lx0fvq710kx5mk749dgtc2cr0000gn/T/cp_5uplyf8j7zjn0xo6uq6ckg8ik.argfile net.skhu.TestApplication
+* cd SpringWS/test && code -r .
+* 네비게이션 바에서 Springboot Dashboard 클릭 후 run 버튼 클릭
+* 접속 중지 후 cd .. && cd .. && code -r . 실행
 * 접속 주소 : <http://localhost:8088/home/index>
 * 접속 중지 :  control + c
 
@@ -75,6 +77,6 @@
 * 접속 해제는 왼쪽 사이드바에서 "SQL Tools" 선택 후 disconnect 버튼 클릭
 * 왼쪽 사이드바에서 "SQL Tools" 선택 후 연결하면 파일이 새로 생성되어 버리므로, disconnect만 사용해야 함
 
-## 16 WEB 페이지 실행
+## 16. WEB 페이지 실행
 
 * 모두 작성 후 오른쪽 아래에 있는 "Go Live" 버튼 클릭으로 실행 가능함
