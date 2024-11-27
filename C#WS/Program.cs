@@ -3,7 +3,7 @@
     class Program
     {
         readonly int a = 1000;
-        int aa() {
+        int Aa() {
             return a;
 
         }
@@ -12,7 +12,7 @@
         {
             Console.WriteLine("Hello world!");
             Program p = new();
-            Console.WriteLine(p.aa());
+            Console.WriteLine(p.Aa());
 
         }
     }

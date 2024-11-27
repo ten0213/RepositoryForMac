@@ -1,14 +1,15 @@
 #include "test.h"
 
-int add(int a, int b) {
-    return a + b;
-}
-
-int main()
+int main(void)
 {
-    int a = 1;
-    int b = 20;
-    int c = add(a, b);
-    printf("c = %d\n", c);
+    float fData = 123.456;
+    printf("%f\n", fData);
+    printf("%.1f\n", fData);
+    printf("%.2f\n", fData);
+    printf("%.3f\n\n", fData);
+    printf("%e\n", fData);
+    printf("%g\n", fData);
+
+
     return 0;
 }

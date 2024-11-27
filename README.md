@@ -19,7 +19,7 @@
 
 ## 5. Java 실행
 
-* cd javaws && javac test.java && java test.java && cd ..
+* cd javaws && javac Test.java && java Test && cd ..
 
 ## 6. Javascript 실행
 

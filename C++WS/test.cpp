@@ -1,7 +1,7 @@
 #include "test.h"
 using namespace std;
 
-struct Point
+class Point
 {
 public:
     void SetXY(int a, int b)
@@ -20,5 +20,6 @@ int main()
     Point pt1;
     pt1.SetXY(3, 4);
     pt1.Print();
+    cout << "hello" << endl;
     return 0;
 }
