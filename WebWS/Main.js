@@ -1,18 +1,29 @@
-const $counter = document.getElementById('counter');
-const $increase = document.getElementById('increase');
-const $decrease = document.getElementById('decrease');
+// Get DOM elements
+const counterElement = document.getElementById('counter');
+const increaseButton = document.getElementById('increase');
+const decreaseButton = document.getElementById('decrease');
 
-let num = 0;
-const render = function () { $counter.innerHTML = num; }
+// Initialize counter value
+let count = 0;
 
-$increase.onclick = function() {
-  num++;
-  console.log('increase 버튼 클릭', num);
-  render();
+// Update the counter display
+function updateCounter() {
+  counterElement.textContent = count;
 }
 
-$decrease.onclick = function() {
-  num--;
-  console.log('decrease 버튼 클릭', num);
-  render();
-}
+// Event handler for increase button
+increaseButton.addEventListener('click', () => {
+  count++;
+  updateCounter();
+});
+
+// Event handler for decrease button
+decreaseButton.addEventListener('click', () => {
+  count--;
+  updateCounter();
+});
+
+// Initialize counter display on page load
+document.addEventListener('DOMContentLoaded', () => {
+  updateCounter();
+});

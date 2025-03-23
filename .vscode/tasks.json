@@ -1,79 +1,19 @@
 {
     "version": "2.0.0",
     "tasks": [
-        {
-            "type": "shell",
-            "label": "C bulid for clang",
-            "command": "clang",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
-            "presentation": {
-                "clear": true
-            },
-            "group": "build",
-            "problemMatcher": []
+      {
+        "label": "C/C++: Build active file",
+        "type": "shell",
+        "command": "if [[ \"${file}\" == *.cpp ]]; then g++ -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\"; else gcc -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\"; fi",
+        "options": {
+          "cwd": "${workspaceFolder}"
         },
-        {
-            "type": "shell",
-            "label": "C++ bulid for clang++",
-            "command": "clang++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
-            "presentation": {
-                "clear": true
-            },
-            "group": "build",
-            "problemMatcher": []
+        "problemMatcher": ["$gcc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
         },
-        {
-            "type": "swift",
-            "args": [
-                "build",
-                "--product",
-                "SwiftWS"
-            ],
-            "cwd": "/Users/hwangjaehyeon/VScodeWS/SwiftWS",
-            "problemMatcher": [
-                "$swiftc"
-            ],
-            "group": "build",
-            "label": "swift: Build Debug SwiftWS (SwiftWS)",
-            "detail": "swift build --product SwiftWS"
-        },
-        {
-            "type": "cargo",
-            "command": "build",
-            "problemMatcher": [
-                "$rustc"
-            ],
-            "group": "build",
-            "label": "rust: cargo build"
-        },
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "shell",
-            "args": [
-                "build",
-                "${workspaceFolder}/C#WS.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-
-        },
+        "detail": "컴파일러: C 파일은 gcc, C++ 파일은 g++을 사용합니다"
+      }
     ]
-}
+  }

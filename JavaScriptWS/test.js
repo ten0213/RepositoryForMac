@@ -1,8 +1,9 @@
 const a = () => {
-  let a = 0;
 
+  let a = 0;
   if (a === 0) {
-    console.log("Hello world!");
+    console.log('a is 0');
+
   }
 };
 a();
@@ -12,3 +13,6 @@ console.log(aa);
 console.log(2 ** 50);
 console.log(2 ** 50 + 1);
 console.log(2 ** 50 + 2);
+
+
+

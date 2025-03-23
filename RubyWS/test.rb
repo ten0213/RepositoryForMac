@@ -1,7 +1,7 @@
-id = "egong"
-if id == "egong" || id == "k8805" or id == "sorialgi"
-  print "right"
-else
-  print "wrong"
-end
-print "\nHello world~"
+ir = 44
+print(ir)
+puts(ir)
+puts("Hello World")
+puts("Hello World")
+puts("Hello World")
+

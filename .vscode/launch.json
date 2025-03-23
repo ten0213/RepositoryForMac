@@ -1,33 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
+
     {
       "type": "java",
-      "name": "Test",
+      "name": "Java debug",
       "request": "launch",
       "mainClass": "Test",
       "projectName": "VScodeWS"
-    },
-    {
-      "type": "java",
-      "name": "test",
-      "request": "launch",
-      "mainClass": "test",
-      "projectName": "VScodeWS"
-    },
-    {
-      "type": "java",
-      "name": "TestApplication",
-      "request": "launch",
-      "mainClass": "TestApplication",
-      "projectName": "VScodeWS"
-    },
-    {
-      "type": "java",
-      "name": "test",
-      "request": "launch",
-      "mainClass": "test",
-      "projectName": "VScodeWS_c64b54fb"
     },
     {
       "type": "lldb",
@@ -71,14 +51,6 @@
       "console": "integratedTerminal"
     },
     {
-      "cwd": "${fileDirname}",
-      "startupClass": "${fileBasename}",
-      "type": "java",
-      "name": "Java debug",
-      "request": "launch",
-      "jdkPath": "/Users/hwangjaehyeon/zulu17.40.19-ca-jdk17.0.6-macosx_aarch64/zulu-17.jdk/Contents/Home/bin"
-    },
-    {
       "name": "Python debug",
       "type": "python",
       "request": "launch",
@@ -86,37 +58,16 @@
       "console": "integratedTerminal",
       "justMyCode": false
     },
+    
     {
-      "type": "lldb",
+      "type": "java",
+      "name": "Spring Boot-TestApplication<test>",
       "request": "launch",
-      "name": "Swift debug",
-      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
-      "args": [],
-      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
-      "console": "integratedTerminal"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "name": "Debug SwiftWS (SwiftWS)",
-      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
-      "args": [],
-      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
-      "console": "integratedTerminal"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "sourceLanguages": [
-        "swift"
-      ],
-      "name": "Release SwiftWS (SwiftWS)",
-      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
-      "args": [],
-      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
-      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
+      "cwd": "${workspaceFolder}",
+      "mainClass": "net.skhu.TestApplication",
+      "projectName": "test",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     },
     {
       "name": "C/C++ Runner: Debug Session",

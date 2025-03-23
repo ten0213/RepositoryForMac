@@ -14,27 +14,7 @@
     <button id="increase">+</button>
     <button id="decrease">-</button>
   </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const $counter = document.getElementById('counter');
-      const $increase = document.getElementById('increase');
-      const $decrease = document.getElementById('decrease');
-
-      var num = 0;
-      const render = function () { $counter.innerHTML = num; }
-      $increase.onclick = function () {
-        num++;
-        console.log('increase 버튼 클릭', num);
-        render();
-      }
-
-      $decrease.onclick = function () {
-        num--;
-        console.log('decrease 버튼 클릭', num);
-        render();
-      }
-    });
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>

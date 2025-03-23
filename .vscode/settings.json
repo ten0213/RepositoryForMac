@@ -133,12 +133,12 @@
     "csharp": "cd C#WS && dotnet run Program.cs && cd ..",
     "cpp": "cd C++WS && g++ test.cpp -o test.out && ./test.out && cd ..",
     "python": "cd PythonWS && python3 test.py && cd ..",
-    "java": "cd javaws && javac Test.java && java Test && cd ..",
+    "java": "cd javaws/ && javac Test.java && java Test && cd ..",
     "go": "cd GolangWS && go run test.go && cd ..",
     "javascript": "cd JavaScriptWS && node test.js && cd ..",
     "rust": "cd rustws/src && rustc main.rs && ./main && cd .. && cd ..",
     "ruby": "cd RubyWS && ruby test.rb && cd ..",
-    "typescript": "cd TypeScriptWS && ts-node test.ts && cd ..",
+    "typescript": "cd TypeScriptWS && tsc test.ts && ts-node test.js && cd ..",
     "swift": "cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd ..",
     "kotlin": "cd KotlinWS && kotlinc test.kt -include-runtime -d test.jar && java -jar test.jar && cd .."
   },
@@ -213,8 +213,6 @@
     "strings": true,
     "other": true
   },
-  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
-  "lldb.launch.expressions": "native",
   "dotnet.defaultSolution": "C#WS/C#WS.sln",
   "dotnet.completion.showNameCompletionSuggestions": false,
   "C_Cpp_Runner.useMsvc": false,
@@ -240,5 +238,7 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "java.compile.nullAnalysis.mode": "automatic"
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.format.settings.url": ".vscode/java-formatter.xml"
 }

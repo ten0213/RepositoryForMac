@@ -1,22 +1,8 @@
-class Animal {
-    public void makeSound() {
-        System.out.println("Animal is making a sound.");
-    }
-}
-
-class Cat extends Animal {
-    public void makeSound() {
-        System.out.println("Cat is making a sound.");
-    }
-}
-
-
-
+// 클래스 선언
 public class Test {
+    // 메인 메서드 선언
     public static void main(String[] args) {
-        Animal animal = new Cat();
-        animal.makeSound();
+        // 콘솔에 출력
+        System.out.println("Hello world!");
     }
 }
-
-

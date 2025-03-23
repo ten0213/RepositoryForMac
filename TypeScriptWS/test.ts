@@ -7,4 +7,5 @@ console.log(a);
 console.log(s);
 console.log(b);
 
-export {}
+export { };
+

@@ -29,23 +29,19 @@
 
 * cd TypeScriptWS && ts-node test.ts && cd ..
 
-## 8. swift 실행
-
-* cd SwiftWS/Sources/SwiftWS && swift main.swift && cd .. && cd .. && cd ..
-
-## 9. Golang 실행
+## 8. Golang 실행
 
 * cd GolangWS && go run test.go && cd ..
 
-## 10. Rust 실행
+## 9. Rust 실행
 
 * cd rustws/src && rustc main.rs && ./main && cd .. && cd ..
 
-## 11. Ruby 실행
+## 10. Ruby 실행
 
 * cd RubyWS && ruby test.rb && cd ..
 
-## 12. Spring Boot 실행
+## 11. Spring Boot 실행
 
 * cd SpringWS/test && code -r .
 * 네비게이션 바에서 Springboot Dashboard 클릭 후 run 버튼 클릭
@@ -53,19 +49,19 @@
 * 접속 주소 : <http://localhost:8088/home/index>
 * 접속 중지 :  control + c
 
-## 13. React 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+## 12. React 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
 
 * cd ReactWS/test && npm start
 * 접속 주소 : <http://localhost:3000>
 * 접속 중지 : control + c
 
-## 14. Vue 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
+## 13. Vue 실행(실행 취소 후 "cd .." 2번 실행하여 복귀해야 함)
 
 * cd VueWS/test && npm run serve
 * 접속 주소 : <http://localhost:8082>
 * 접속 중지 : control + c
 
-## 15. kotlin 실행
+## 14. kotlin 실행
 
 * cd KotlinWS && kotlinc test.kt -include-runtime -d test.jar && java -jar test.jar && cd ..
 
@@ -80,3 +76,4 @@
 ## 16. WEB 페이지 실행
 
 * 모두 작성 후 오른쪽 아래에 있는 "Go Live" 버튼 클릭으로 실행 가능함
+* http://192.168.33.43:5500/WebWS/Main.html 로 접속 가능함

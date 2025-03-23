@@ -1,5 +1,5 @@
 fn write_header() {
-    println!("Hello!! 안녕! s");
+    println!("Hello!! 안녕!");
 }
 
 fn main() {
