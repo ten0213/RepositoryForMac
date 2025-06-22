@@ -1,14 +1,39 @@
 {
   "version": "0.2.0",
   "configurations": [
-
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Rust debug",
+      "program": "${workspaceFolder:VScodeWS}/rustws/target/debug/rustws",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      "sourceLanguages": [
+        "rust"
+      ]
+    },
     {
       "type": "java",
       "name": "Java debug",
       "request": "launch",
       "mainClass": "Test",
-      "projectName": "VScodeWS"
+      "projectName": "VScodeWS",
+      "jdkPath": "${env:JAVA_HOME}",
+      "cwd": "${workspaceFolder}",
+      "startupClass": "Test"
     },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Swift debug",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
+      "console": "integratedTerminal"
+    },
+
     {
       "type": "lldb",
       "request": "launch",
@@ -18,16 +43,16 @@
       "cwd": "${workspaceRoot}",
       "console": "integratedTerminal"
     },
-    {
-      "name": "C# debug",
+     {
+      "name": "C# Debug",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "/Users/hwangjaehyeon/VScodeWS/C#WS/bin/Debug/net7.0/C#WS.dll",
+      "program": "${workspaceFolder}/CSharpWS/bin/Debug/net7.0/CSharpWS.dll",
       "args": [],
-      "justMyCode": false,
-      "stopAtEntry": true,
-      "requireExactSource": false
+      "justMyCode": true,
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
     },
     {
       "name": "Ruby debug",
@@ -58,7 +83,6 @@
       "console": "integratedTerminal",
       "justMyCode": false
     },
-    
     {
       "type": "java",
       "name": "Spring Boot-TestApplication<test>",
@@ -76,6 +100,25 @@
       "args": [],
       "cwd": "/Users/hwangjaehyeon/VScodeWS/C++WS",
       "program": "/Users/hwangjaehyeon/VScodeWS/C++WS/build/Debug/outDebug"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "name": "Debug SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/debug/SwiftWS",
+      "preLaunchTask": "swift: Build Debug SwiftWS (SwiftWS)",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:VScodeWS}/SwiftWS",
+      "name": "Release SwiftWS (SwiftWS)",
+      "program": "${workspaceFolder:VScodeWS}/SwiftWS/.build/release/SwiftWS",
+      "preLaunchTask": "swift: Build Release SwiftWS (SwiftWS)"
     }
   ]
 }

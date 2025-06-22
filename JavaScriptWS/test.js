@@ -7,7 +7,7 @@ const a = () => {
   }
 };
 a();
-
+console.log(a);
 var aa = 2 ** 30;
 console.log(aa);
 console.log(2 ** 50);

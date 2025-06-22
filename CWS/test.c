@@ -1,8 +1,10 @@
-#include "test.h"
+#include <stdio.h>
 
-int main(void)
+int main()
 {
-    float fData = 123.456;
-    printf("hello world\n%lf\n", fData);
+    // Print a message to the console
+    printf("Hello, World!\n");
+
+    // Return 0 to indicate successful execution
     return 0;
 }

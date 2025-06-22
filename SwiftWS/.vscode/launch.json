@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftWS}",
+            "name": "Debug SwiftWS",
+            "program": "${workspaceFolder:SwiftWS}/.build/debug/SwiftWS",
+            "preLaunchTask": "swift: Build Debug SwiftWS"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftWS}",
+            "name": "Release SwiftWS",
+            "program": "${workspaceFolder:SwiftWS}/.build/release/SwiftWS",
+            "preLaunchTask": "swift: Build Release SwiftWS"
+        }
+    ]
+}

@@ -1,6 +1,16 @@
 {
     "version": "2.0.0",
     "tasks": [
+       {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/CSharpWS"
+      ],
+      "problemMatcher": "$msCompile"
+    },
       {
         "label": "C/C++: Build active file",
         "type": "shell",
@@ -8,12 +18,21 @@
         "options": {
           "cwd": "${workspaceFolder}"
         },
-        "problemMatcher": ["$gcc"],
+        "problemMatcher": [
+          "$gcc"
+        ],
         "group": {
           "kind": "build",
           "isDefault": true
         },
         "detail": "컴파일러: C 파일은 gcc, C++ 파일은 g++을 사용합니다"
+      },
+      {
+        "type": "dotnet",
+        "task": "clean",
+        "group": "clean",
+        "problemMatcher": [],
+        "label": "dotnet: clean"
       }
     ]
   }

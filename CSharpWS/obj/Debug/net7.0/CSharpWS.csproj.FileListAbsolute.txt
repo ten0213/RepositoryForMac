@@ -1,0 +1,15 @@
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/bin/Debug/net7.0/CSharpWS
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/bin/Debug/net7.0/CSharpWS.deps.json
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/bin/Debug/net7.0/CSharpWS.runtimeconfig.json
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/bin/Debug/net7.0/CSharpWS.dll
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/bin/Debug/net7.0/CSharpWS.pdb
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.csproj.AssemblyReference.cache
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.AssemblyInfoInputs.cache
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.AssemblyInfo.cs
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.csproj.CoreCompileInputs.cache
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.dll
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/refint/CSharpWS.dll
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.pdb
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/CSharpWS.genruntimeconfig.cache
+/Users/hwangjaehyeon/VScodeWS/CSharpWS/obj/Debug/net7.0/ref/CSharpWS.dll

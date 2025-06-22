@@ -1,3 +1,7 @@
+// This is a simple Go program that prints "Hello World!" to the console,
+// prompts the user for input, and then prints the input back to the console.
+// It also demonstrates the use of the os package to exit the program.
+// It is a basic example of how to use the fmt and os packages in Go.
 package main
 
 import (

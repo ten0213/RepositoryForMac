@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import*
 # 예제 3) 버튼 클릭시 실행될 이벤트(함수) 설정
 tk = Tk()
 
@@ -14,7 +14,7 @@ def reset():
     global counter
     counter = 0
     label1['text'] = '옆에 버튼이 있습니다.'
-## GUI 구성(텍스트,버튼) ##
+## GUI 구성(텍스트,버튼)
 
 # 창 이름 설정
 tk.title('GUI예제')
@@ -29,3 +29,9 @@ button3.pack(side=LEFT, padx=10, pady=10)
 button4 = Button(tk,text='reset',bg='red',width=30,height=5,font=15,command=reset)
 button4.pack(side=LEFT,padx=10, pady=10)
 tk.mainloop()
+
+
+
+
+
+
